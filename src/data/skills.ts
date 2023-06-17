@@ -1,0 +1,15 @@
+export const skills: string[] = [
+  "HTML",
+  "CSS, SCSS (BEM, Bootstrap, Tailwind)",
+  "JavaScript (ES6+), TypeScript",
+  "React (Next.js, Remix)",
+  "Angular",
+  "Familiarity with Backend Technologies (Express, Nest.js, ASP.NET)",
+  "Familiarity with SQL, NoSQL databases",
+  "Webpack, Vite",
+  "REST API, Graphql",
+  "Docker",
+  "Git/GitHub",
+  "Design Patterns, SOLID, DRY, YAGNI",
+  "English B1",
+];

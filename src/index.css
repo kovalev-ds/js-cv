@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  width: min(90%, 100ch);
+  margin-inline: auto;
+}
+
+.subtitle {
+  @apply text-2xl font-medium flex items-center after:h-0.5 after:w-full after:bg-gray-300 after:ml-4;
+}
