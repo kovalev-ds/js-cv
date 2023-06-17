@@ -6,11 +6,11 @@ type Info = {
 export const info: Info[] = [
   {
     title: "Location",
-    data: "Gomel, Belarus",
+    data: "Poland",
   },
   {
     title: "Phone",
-    data: "+375 29 607 07 57",
+    data: "+48 571 099 749",
   },
   {
     title: "Email",

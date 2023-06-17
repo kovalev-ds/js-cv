@@ -12,10 +12,11 @@ function App() {
             <h1 className="font-medium text-3xl">
               Denis <span className="text-blue-500">Kovalev</span>
             </h1>
-            <ul className="flex flex-wrap justify-center gap-2">
+            <ul className="flex flex-wrap justify-center gap-x-3 gap-y-2 text-lg">
               {info.map(({ title, data }) => (
                 <li>
-                  <span className="text-blue-500">{title}:</span> {data}
+                  <span className="text-blue-500 font-medium">{title}:</span>{" "}
+                  {data}
                 </li>
               ))}
             </ul>
@@ -75,7 +76,7 @@ function App() {
       <section className="py-4 mb-8">
         <div className="container">
           <h2 className="subtitle mb-2">Education</h2>
-          <ul className="list list--circle list--space-y-2">
+          <ul className="list-inside list-disc">
             <li>
               University: Francisk Skorina Gomel State University, Physics and
               IT (in proccess)
@@ -84,14 +85,14 @@ function App() {
         </div>
       </section>
 
-      <footer className="">
-        <div className="stack stack--place-center">
-          <div className="container text-center">
-            Web Version:
-            <a href="https://kovalev-ds.github.io/rsschool-cv/">
-              <strong>https://kovalev-ds.github.io/rsschool-cv/</strong>
-            </a>
-          </div>
+      <footer className="bg-neutral-100">
+        <div className="container text-center py-4">
+          <a
+            className="underline hover:no-underline"
+            href="https://kovalev-ds.github.io/rsschool-cv/"
+          >
+            Web Version
+          </a>
         </div>
       </footer>
     </>

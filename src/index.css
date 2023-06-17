@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply text-gray-900 bg-neutral-50;
+}
+
 .container {
   width: min(90%, 100ch);
   margin-inline: auto;
