@@ -1,4 +1,0 @@
-export const profile: string[] = [
-  `Hello! I'm a JavaScript developer with a diverse skill set that includes expertise in React, Angular, Node.js, and ASP.NET. With a passion for web development, I have gained valuable experience working on various projects that have helped me refine my programming skills and problem-solving abilities.`,
-  `In my journey as a developer, I have acquired a solid understanding of front-end frameworks like React and Angular, allowing me to create dynamic and responsive user interfaces. Additionally, my proficiency in Node.js enables me to build scalable and efficient server-side applications. I'm also well-versed in ASP.NET, which empowers me to develop robust web applications using Microsoft technologies. With a keen eye for detail and a drive for delivering high-quality code, I strive to contribute to innovative and impactful projects while continuously expanding my knowledge in the ever-evolving world of web development.`,
-];
